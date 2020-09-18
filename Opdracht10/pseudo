@@ -1,0 +1,19 @@
+alert - welkom
+prompt - get name
+alert - uitleg
+prompt - get min
+prompt - get max
+prompt - get num ==> check range. 
+if within range  ==>roundedNum
+else alert new number
+endif
+
+generate magicNum - math.random minmax
+
+compare() - roundedNum vs magicNum
+lose() - if roundedNum !== magicNum ==> alert lose  !!!try again!?! 
+endif
+win() - if roundedNum === magicNum ==> alert win 
+endif
+
+play()
